@@ -13,3 +13,17 @@
 function maps(x){
    return x.map(num => num *2) 
 }
+
+//solve with for loop
+function maps(x){
+
+    //arr is empty array
+    let arr = [];
+    //i starts at 0 while shorter than length of array loop through array
+    for(let i = 0; i < x.length; i++){
+        //push to new array the element from array x times 2
+        arr.push(x[i] * 2)
+    }
+}
+//return new array
+return arr
